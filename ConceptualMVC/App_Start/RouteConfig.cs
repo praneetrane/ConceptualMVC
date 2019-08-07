@@ -13,11 +13,11 @@ namespace ConceptualMVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "Student",
-                url: "student/{id}",
-                defaults: new { controller = "Student", action = "Index" }
-            );
+            //routes.MapRoute(
+            //    name: "Student",
+            //    url: "student/{id}",
+            //    defaults: new { controller = "Student", action = "Index" }
+            //);
 
             routes.MapRoute(
                 name: "Default",
